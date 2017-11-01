@@ -1,0 +1,14 @@
+package com.lichao.recyclerview_swipecard.adaper;
+
+import android.view.View;
+import android.view.ViewGroup;
+
+/**
+ * Created by Administrator on 2017-11-01.
+ */
+
+public interface OnItemClickListener<T> {
+    void onItemClick(ViewGroup var1, View var2, T var3, int var4);
+
+    boolean onItemLongClick(ViewGroup var1, View var2, T var3, int var4);
+}
